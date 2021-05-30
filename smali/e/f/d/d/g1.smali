@@ -1,0 +1,173 @@
+.class final Le/f/d/d/g1;
+.super Le/f/d/d/h1;
+
+# interfaces
+.implements Le/f/d/d/h4;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Le/f/d/d/h1<",
+        "TK;TV;>;",
+        "Le/f/d/d/h4<",
+        "TK;TV;>;"
+    }
+.end annotation
+
+.annotation build Le/f/d/a/b;
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Le/f/d/d/h4;Le/f/d/b/e0;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Le/f/d/d/h4<",
+            "TK;TV;>;",
+            "Le/f/d/b/e0<",
+            "-TK;>;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Le/f/d/d/h1;-><init>(Le/f/d/d/o4;Le/f/d/b/e0;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(Ljava/lang/Object;)Ljava/util/Collection;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation runtime Lorg/checkerframework/checker/nullness/compatqual/NullableDecl;
+        .end annotation
+    .end param
+
+    invoke-virtual {p0, p1}, Le/f/d/d/g1;->a(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic a(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
+    .locals 0
+
+    invoke-virtual {p0, p1, p2}, Le/f/d/d/g1;->a(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public a(Ljava/lang/Object;)Ljava/util/List;
+    .locals 0
+    .param p1    # Ljava/lang/Object;
+        .annotation runtime Lorg/checkerframework/checker/nullness/compatqual/NullableDecl;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")",
+            "Ljava/util/List<",
+            "TV;>;"
+        }
+    .end annotation
+
+    invoke-super {p0, p1}, Le/f/d/d/h1;->a(Ljava/lang/Object;)Ljava/util/Collection;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/util/List;
+
+    return-object p1
+.end method
+
+.method public a(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;",
+            "Ljava/lang/Iterable<",
+            "+TV;>;)",
+            "Ljava/util/List<",
+            "TV;>;"
+        }
+    .end annotation
+
+    invoke-super {p0, p1, p2}, Le/f/d/d/h;->a(Ljava/lang/Object;Ljava/lang/Iterable;)Ljava/util/Collection;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/util/List;
+
+    return-object p1
+.end method
+
+.method public e()Le/f/d/d/h4;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Le/f/d/d/h4<",
+            "TK;TV;>;"
+        }
+    .end annotation
+
+    invoke-super {p0}, Le/f/d/d/h1;->e()Le/f/d/d/o4;
+
+    move-result-object v0
+
+    check-cast v0, Le/f/d/d/h4;
+
+    return-object v0
+.end method
+
+.method public bridge synthetic e()Le/f/d/d/o4;
+    .locals 1
+
+    invoke-virtual {p0}, Le/f/d/d/g1;->e()Le/f/d/d/h4;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic get(Ljava/lang/Object;)Ljava/util/Collection;
+    .locals 0
+
+    invoke-virtual {p0, p1}, Le/f/d/d/g1;->get(Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public get(Ljava/lang/Object;)Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;)",
+            "Ljava/util/List<",
+            "TV;>;"
+        }
+    .end annotation
+
+    invoke-super {p0, p1}, Le/f/d/d/h1;->get(Ljava/lang/Object;)Ljava/util/Collection;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/util/List;
+
+    return-object p1
+.end method

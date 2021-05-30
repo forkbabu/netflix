@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/search_focus" android:paddingTop="2.0dip" android:focusable="true" android:layout_width="135.0dip" android:layout_height="96.0dip" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgThumb" android:layout_width="131.0dip" android:layout_height="74.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_color_focus" android:ellipsize="end" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/imgThumb" />
+</RelativeLayout>

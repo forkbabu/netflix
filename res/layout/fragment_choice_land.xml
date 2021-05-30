@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/gridViewCate" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="80.0dip" android:listSelector="@drawable/search_focus" android:drawSelectorOnTop="true" android:horizontalSpacing="2.0dip" android:verticalSpacing="4.0dip" android:numColumns="5" android:overScrollMode="never" />
+    <GridView android:gravity="center" android:id="@id/gridView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/search_focus" android:drawSelectorOnTop="true" android:horizontalSpacing="2.0dip" android:verticalSpacing="4.0dip" android:numColumns="@integer/colum_movie_normal" android:layout_below="@id/gridViewCate" android:overScrollMode="never" />
+    <ProgressBar android:theme="@style/ProgressLoadMore" android:id="@id/loading" android:layout_width="54.0dip" android:layout_height="54.0dip" android:indeterminate="true" android:layout_centerInParent="true" />
+</RelativeLayout>

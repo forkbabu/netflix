@@ -1,0 +1,123 @@
+.class public abstract Lk/a/y0/h/h;
+.super Lk/a/y0/i/f;
+
+# interfaces
+.implements Lk/a/q;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lk/a/y0/i/f<",
+        "TR;>;",
+        "Lk/a/q<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final o0:J = 0x296b17edcf9c299fL
+
+
+# instance fields
+.field protected m:Lq/f/d;
+
+.field protected n:Z
+
+
+# direct methods
+.method public constructor <init>(Lq/f/c;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lq/f/c<",
+            "-TR;>;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1}, Lk/a/y0/i/f;-><init>(Lq/f/c;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/Throwable;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lk/a/y0/i/f;->c:Ljava/lang/Object;
+
+    iget-object v0, p0, Lk/a/y0/i/f;->b:Lq/f/c;
+
+    invoke-interface {v0, p1}, Lq/f/c;->a(Ljava/lang/Throwable;)V
+
+    return-void
+.end method
+
+.method public a(Lq/f/d;)V
+    .locals 2
+
+    iget-object v0, p0, Lk/a/y0/h/h;->m:Lq/f/d;
+
+    invoke-static {v0, p1}, Lk/a/y0/i/j;->a(Lq/f/d;Lq/f/d;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iput-object p1, p0, Lk/a/y0/h/h;->m:Lq/f/d;
+
+    iget-object v0, p0, Lk/a/y0/i/f;->b:Lq/f/c;
+
+    invoke-interface {v0, p0}, Lq/f/c;->a(Lq/f/d;)V
+
+    const-wide v0, 0x7fffffffffffffffL
+
+    invoke-interface {p1, v0, v1}, Lq/f/d;->a(J)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public cancel()V
+    .locals 1
+
+    invoke-super {p0}, Lk/a/y0/i/f;->cancel()V
+
+    iget-object v0, p0, Lk/a/y0/h/h;->m:Lq/f/d;
+
+    invoke-interface {v0}, Lq/f/d;->cancel()V
+
+    return-void
+.end method
+
+.method public onComplete()V
+    .locals 1
+
+    iget-boolean v0, p0, Lk/a/y0/h/h;->n:Z
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lk/a/y0/i/f;->c:Ljava/lang/Object;
+
+    invoke-virtual {p0, v0}, Lk/a/y0/i/f;->c(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, p0, Lk/a/y0/i/f;->b:Lq/f/c;
+
+    invoke-interface {v0}, Lq/f/c;->onComplete()V
+
+    :goto_0
+    return-void
+.end method

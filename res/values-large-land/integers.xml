@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="colum_movie_large">5</integer>
+    <integer name="colum_movie_normal">6</integer>
+    <integer name="colum_movie_small">7</integer>
+    <integer name="colum_movie_with_left_large">4</integer>
+    <integer name="colum_movie_with_left_normal">5</integer>
+    <integer name="colum_movie_with_left_small">6</integer>
+</resources>

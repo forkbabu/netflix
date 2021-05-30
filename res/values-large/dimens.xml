@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="height_cover_detail_mobile">220.0dip</dimen>
+    <dimen name="height_episode">102.0dip</dimen>
+    <dimen name="height_item">217.0dip</dimen>
+    <dimen name="height_item_detail">280.0dip</dimen>
+    <dimen name="height_item_large">275.0dip</dimen>
+    <dimen name="height_item_small">172.0dip</dimen>
+    <dimen name="margin_episode">32.0dip</dimen>
+    <dimen name="margin_season">197.0dip</dimen>
+    <dimen name="movie_name_size">16.0sp</dimen>
+    <dimen name="movie_year_size">14.0sp</dimen>
+    <dimen name="size_tv_link">18.0sp</dimen>
+    <dimen name="text_des_episode">14.0sp</dimen>
+    <dimen name="text_title_episode">16.0sp</dimen>
+    <dimen name="width_episode">180.0dip</dimen>
+    <dimen name="with_item">145.0dip</dimen>
+    <dimen name="with_item_detail">185.0dip</dimen>
+    <dimen name="with_item_large">185.0dip</dimen>
+    <dimen name="with_item_small">115.0dip</dimen>
+</resources>

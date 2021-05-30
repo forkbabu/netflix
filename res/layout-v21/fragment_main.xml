@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgThumb" android:background="@color/white_30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.3" />
+    <LinearLayout android:id="@id/vTablayout" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="3.0dip">
+        <android.support.design.widget.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="36.0dip" app:tabBackground="@drawable/search_focus" app:tabIndicatorColor="@color/text_color_gray" app:tabMode="scrollable" app:tabSelectedTextColor="@color/white" app:tabTextAppearance="@style/MyCustomTextAppearance" app:tabTextColor="@color/text_color_gray" />
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/vTablayout" />
+</RelativeLayout>

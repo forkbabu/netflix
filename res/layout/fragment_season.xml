@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bannerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/height_ads" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <GridView android:gravity="center_horizontal" android:id="@id/gridview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_focus" android:drawSelectorOnTop="true" android:horizontalSpacing="4.0dip" android:numColumns="@integer/colum_movie_normal" android:layout_above="@id/bannerContainer" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ProgressBar android:theme="@style/progress_bar" android:id="@id/loading" android:layout_width="65.0dip" android:layout_height="65.0dip" android:indeterminate="true" android:layout_centerInParent="true" />
+</RelativeLayout>

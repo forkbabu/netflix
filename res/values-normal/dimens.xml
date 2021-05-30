@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_cover_detail_mobile">180.0dip</dimen>
+    <dimen name="height_item">170.0dip</dimen>
+    <dimen name="height_item_detail">202.0dip</dimen>
+    <dimen name="height_item_large">260.0dip</dimen>
+    <dimen name="height_item_small">126.0dip</dimen>
+    <dimen name="margin_episode">8.0dip</dimen>
+    <dimen name="margin_season">163.0dip</dimen>
+    <dimen name="text_des_episode">11.0sp</dimen>
+    <dimen name="text_title_episode">14.0sp</dimen>
+    <dimen name="with_item">114.0dip</dimen>
+    <dimen name="with_item_detail">135.0dip</dimen>
+    <dimen name="with_item_large">174.0dip</dimen>
+    <dimen name="with_item_small">84.0dip</dimen>
+</resources>

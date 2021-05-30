@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgThumbAlpha" android:background="@color/white_30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.3" />
+    <include android:id="@id/actionbar" layout="@layout/actionbar_view" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/bannerContainer" android:layout_width="fill_parent" android:layout_height="@dimen/height_ads" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ListView android:id="@id/lvSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/search_focus_border_white" android:drawSelectorOnTop="false" android:divider="@color/divider_color" android:dividerHeight="2.0dip" android:layout_above="@id/bannerContainer" android:layout_below="@id/actionbar" />
+    <ProgressBar android:theme="@style/progress_bar" android:id="@id/loading" android:layout_width="65.0dip" android:layout_height="65.0dip" android:indeterminate="true" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/xo;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzbnu;
+
+
+# instance fields
+.field private final a:Lcom/google/android/gms/internal/ads/zzcrl;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/zzcrl;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/xo;->a:Lcom/google/android/gms/internal/ads/zzcrl;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getVideoController()Lcom/google/android/gms/internal/ads/zzzc;
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/xo;->a:Lcom/google/android/gms/internal/ads/zzcrl;
+
+    invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzcsp;->a(Lcom/google/android/gms/internal/ads/zzcrl;)Lcom/google/android/gms/internal/ads/zzzc;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgThumb" android:background="@color/white_30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.2" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:theme="@style/progress_bar" android:id="@id/loading" android:layout_width="65.0dip" android:layout_height="65.0dip" android:indeterminate="true" android:layout_centerInParent="true" />
+</RelativeLayout>

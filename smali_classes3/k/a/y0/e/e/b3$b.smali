@@ -1,0 +1,143 @@
+.class final Lk/a/y0/e/e/b3$b;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lk/a/i0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lk/a/y0/e/e/b3;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lk/a/i0<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field final a:Lk/a/y0/e/e/b3$a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lk/a/y0/e/e/b3$a<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+.field final b:Lk/a/y0/f/c;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lk/a/y0/f/c<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+.field final c:I
+
+.field volatile d:Z
+
+.field e:Ljava/lang/Throwable;
+
+
+# direct methods
+.method constructor <init>(Lk/a/y0/e/e/b3$a;II)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lk/a/y0/e/e/b3$a<",
+            "TT;>;II)V"
+        }
+    .end annotation
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lk/a/y0/e/e/b3$b;->a:Lk/a/y0/e/e/b3$a;
+
+    iput p2, p0, Lk/a/y0/e/e/b3$b;->c:I
+
+    new-instance p1, Lk/a/y0/f/c;
+
+    invoke-direct {p1, p3}, Lk/a/y0/f/c;-><init>(I)V
+
+    iput-object p1, p0, Lk/a/y0/e/e/b3$b;->b:Lk/a/y0/f/c;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/Throwable;)V
+    .locals 0
+
+    iput-object p1, p0, Lk/a/y0/e/e/b3$b;->e:Ljava/lang/Throwable;
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lk/a/y0/e/e/b3$b;->d:Z
+
+    iget-object p1, p0, Lk/a/y0/e/e/b3$b;->a:Lk/a/y0/e/e/b3$a;
+
+    invoke-virtual {p1}, Lk/a/y0/e/e/b3$a;->b()V
+
+    return-void
+.end method
+
+.method public a(Lk/a/u0/c;)V
+    .locals 2
+
+    iget-object v0, p0, Lk/a/y0/e/e/b3$b;->a:Lk/a/y0/e/e/b3$a;
+
+    iget v1, p0, Lk/a/y0/e/e/b3$b;->c:I
+
+    invoke-virtual {v0, p1, v1}, Lk/a/y0/e/e/b3$a;->a(Lk/a/u0/c;I)Z
+
+    return-void
+.end method
+
+.method public b(Ljava/lang/Object;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lk/a/y0/e/e/b3$b;->b:Lk/a/y0/f/c;
+
+    invoke-virtual {v0, p1}, Lk/a/y0/f/c;->offer(Ljava/lang/Object;)Z
+
+    iget-object p1, p0, Lk/a/y0/e/e/b3$b;->a:Lk/a/y0/e/e/b3$a;
+
+    invoke-virtual {p1}, Lk/a/y0/e/e/b3$a;->b()V
+
+    return-void
+.end method
+
+.method public onComplete()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lk/a/y0/e/e/b3$b;->d:Z
+
+    iget-object v0, p0, Lk/a/y0/e/e/b3$b;->a:Lk/a/y0/e/e/b3$a;
+
+    invoke-virtual {v0}, Lk/a/y0/e/e/b3$a;->b()V
+
+    return-void
+.end method

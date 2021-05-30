@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/toolbar" android:background="@color/background_light" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <ImageView android:id="@id/imgBack" android:background="@drawable/search_focus_border_white" android:padding="10.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_back_white_24dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tvName" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:maxLines="1" android:layout_toRightOf="@id/imgBack" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include layout="@layout/fragment_grid" />
+</LinearLayout>

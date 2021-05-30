@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_playlist_add_white_24dp" android:state_activated="true" />
+    <item android:drawable="@drawable/ic_remove_red_eye_active_24dp" />
+</selector>

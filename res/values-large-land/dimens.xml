@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_ads">96.0dip</dimen>
+    <dimen name="height_episode">114.0dip</dimen>
+    <dimen name="height_item">202.0dip</dimen>
+    <dimen name="height_item_large">262.0dip</dimen>
+    <dimen name="height_item_small">165.0dip</dimen>
+    <dimen name="margin_episode">36.0dip</dimen>
+    <dimen name="movie_name_size">18.0sp</dimen>
+    <dimen name="movie_year_size">16.0sp</dimen>
+    <dimen name="text_title_episode">18.0sp</dimen>
+    <dimen name="width_episode">200.0dip</dimen>
+    <dimen name="with_item">135.0dip</dimen>
+    <dimen name="with_item_large">175.0dip</dimen>
+    <dimen name="with_item_small">110.0dip</dimen>
+</resources>

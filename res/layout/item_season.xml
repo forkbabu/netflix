@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/search_focus" android:layout_width="@dimen/with_item_season" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgThumb" android:layout_width="fill_parent" android:layout_height="@dimen/height_item_season" android:layout_margin="2.0dip" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:maxLines="1" android:lines="2" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/tvYear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="2.0dip" android:maxLines="1" android:lines="1" android:layout_alignParentBottom="true" />
+</LinearLayout>
